@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.back2{
+    background: radial-gradient(circle,#17192e,#3f2c59,#17192e);
+    background-attachment: fixed;
+    height: 100vh;
+}
+.back2 .container{
+    padding-top: 160px;
+    gap: 15px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.container-fluid .navbar-brand{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container-fluid .navbar-brand:hover{
+    color: #3f2c59;
+    transition: 1s;
+}
+.navbar-expand-lg{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1350px;
+}
+.container-fluid #navbarcollapse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+#navbarcollapse {
+    display: flex;
+    text-decoration: none;
+}
+
